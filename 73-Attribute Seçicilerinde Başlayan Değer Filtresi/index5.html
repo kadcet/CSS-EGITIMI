@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* şapka işareti içerdiği değerin başlangıcı anlamında 
+        burda küçük küçük harf duyarlılığını kaldırdık sadece beyaz ve bej i seçti */
+        div[title^="be" i]{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div title="mavi">Mavi</div>
+    <div title="kirmizi">Kırmızı</div>
+    <div title="beyaz">Beyaz</div>
+    <div title="krem">Krem</div>
+    <div title="BEj">Bej</div>
+    <div title="siyah">Siyah</div>
+    <div title="yesil">Yeşil</div>
+    <div title="bordo">Bordo</div>
+    <div title="mor">Mor</div>
+    <div title="sari">Sarı</div>
+</body>
+</html>

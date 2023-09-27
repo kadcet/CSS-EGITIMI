@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* https ile başlayacak
+        içinde eksta geçecek ve com ile bitecek */
+        a[href^="https"][href*="extra"][href$="com"]{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.extraegitim.net">Ekstra Eğitim (NET)</a><br>
+    <a href="https://www.extraegitim.com">Ekstra Eğitim (COM)</a><br>
+    <a href="extraegitim.com">Ekstra Eğitim (COM)</a><br>
+    <a href="https://www.extraegitim.com.tr">Ekstra Eğitim (COM.TR)</a><br>
+    <a href="https://www.extraegitim.org">Ekstra Eğitim (ORG)</a>
+</body>
+</html>
